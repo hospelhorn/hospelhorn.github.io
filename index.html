@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Sarah Hospelhorn | Marketing, Rewired.</title>
+<meta name="description" content="Sarah Hospelhorn. CMO, strategist, storyteller and builder. Executive marketing strategy, positioning, category creation and AI-powered revenue systems." />
+<meta name="theme-color" content="#16091f" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Sarah Hospelhorn | Marketing, Rewired." />
+<meta property="og:description" content="Strategy first. Storytelling always. AI where it creates leverage." />
+<meta name="twitter:card" content="summary" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#16091f;
+  --bg2:#210d30;
+  --bg3:#0b0611;
+  --ink:#fbf9ff;
+  --soft:#cec5d8;
+  --muted:#9487a7;
+  --line:rgba(255,255,255,.14);
+  --line-soft:rgba(255,255,255,.075);
+  --pink:#ff3bbd;
+  --violet:#9a68ff;
+  --blue:#49a9ff;
+  --cyan:#22e3ff;
+  --teal:#35f0ca;
+  --lime:#c7ff4a;
+  --gold:#ffd53d;
+  --max:1460px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:16px/1.58 'Instrument Sans',system-ui,sans-serif;background:
+  radial-gradient(circle at 76% 14%,rgba(145,70,190,.065),transparent 25%),
+  radial-gradient(circle at 22% 58%,rgba(101,41,135,.045),transparent 31%),
+  linear-gradient(135deg,#18091f 0%,#120718 48%,#09050d 100%);overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit}
+.wrap{width:min(var(--max),calc(100% - 80px));margin:auto}
+
+.nav{height:86px;display:flex;align-items:center;border-bottom:1px solid transparent;position:sticky;top:0;z-index:50;background:rgba(17,7,23,.72);backdrop-filter:blur(18px)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;width:100%}
+.brand{font:600 34px/1 'Instrument Sans';letter-spacing:-.05em}
+.brand i{font-style:normal;color:var(--pink)}
+.navlinks{display:flex;align-items:center;gap:38px;font-size:11px;letter-spacing:.18em;text-transform:uppercase}
+.navlinks a{color:#f0eaf7;transition:.2s}.navlinks a:hover{color:var(--pink)}
+.connect{border:1px solid var(--pink);padding:14px 20px;box-shadow:0 0 18px rgba(255,59,189,.12) inset,0 0 26px rgba(255,59,189,.08)}
+
+.hero{min-height:780px;padding:105px 0 70px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1.03fr .97fr;gap:70px;align-items:center;position:relative}
+.hero-copy{max-width:760px}
+h1,h2,h3{font-family:'DM Sans',sans-serif;margin:0;letter-spacing:-.045em}
+h1{font-size:clamp(72px,7.3vw,124px);font-weight:400;line-height:.88;letter-spacing:-.055em}
+.hero-rule{width:78px;height:2px;background:var(--pink);margin:28px 0}
+.kicker{font:500 17px/1.6 'Instrument Sans';letter-spacing:.2em;text-transform:uppercase;max-width:650px;color:#fff}
+.hero-body{max-width:620px;margin-top:32px;color:var(--soft);font-size:15px}
+.hero-body p{margin:0 0 18px}.hero-body .thesis{color:#fff;border-left:2px solid var(--pink);padding-left:18px;margin-top:28px;font-size:16px}
+.text-link{display:inline-flex;gap:22px;align-items:center;margin-top:22px;padding-bottom:8px;border-bottom:1px solid var(--pink);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#fff}.text-link span{color:var(--pink);font-size:20px;line-height:1}
+
+ .signal-wrap{min-height:575px;position:relative;display:flex;align-items:center;justify-content:center;padding-left:60px}
+.signal-field{width:min(520px,92%);position:relative;padding:30px 0 40px}
+.signal-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:46px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.signal-top b{font-weight:500;color:var(--pink)}
+.signal-row{display:grid;grid-template-columns:130px 1fr 36px;gap:18px;align-items:center;height:68px}
+.signal-label{font:500 12px/1.2 'Instrument Sans';letter-spacing:.18em;text-transform:uppercase;color:#f7f2fb}
+.signal-line{height:1px;background:var(--accent);position:relative;box-shadow:0 0 12px color-mix(in srgb,var(--accent) 24%,transparent)}
+.signal-line:after{content:"";position:absolute;right:0;top:-3px;width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px color-mix(in srgb,var(--accent) 55%,transparent)}
+.signal-code{font-size:10px;letter-spacing:.15em;color:var(--accent);text-align:right}
+.signal-note{margin-top:34px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:30px;color:var(--muted);font-size:12px}
+.signal-note strong{font-weight:500;color:#fff}
+.signal-index{position:absolute;right:-8px;top:-26px;font:400 clamp(76px,8vw,138px)/1 'Instrument Sans';letter-spacing:-.08em;color:rgba(255,255,255,.045);user-select:none}
+.status{position:absolute;right:0;bottom:8px;font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:var(--muted)}.status b{display:block;color:#fff;margin-top:7px;font-weight:500}.status b:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--lime);margin-right:10px;box-shadow:0 0 12px rgba(199,255,74,.75)}
+
+.section{padding:46px 0 54px;border-bottom:1px solid var(--line)}
+.section-label{font-size:11px;letter-spacing:.17em;text-transform:uppercase;color:var(--pink);margin-bottom:10px}.section h2{font-size:clamp(40px,4vw,64px);font-weight:400;line-height:1.04}
+.section-intro{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:end;margin-bottom:34px}.section-intro p{color:var(--soft);max-width:620px;margin:0 0 8px}
+
+.engine-line{position:relative;display:grid;grid-template-columns:repeat(7,1fr);gap:0;margin-top:38px;padding-top:22px}
+.engine-line:before{content:"";position:absolute;top:5px;left:0;right:0;height:1px;background:linear-gradient(90deg,var(--pink),var(--violet),var(--blue),var(--cyan),var(--teal),var(--lime),var(--gold))}
+.stage{position:relative;padding:18px 16px 18px 0;min-height:190px;border:0;background:transparent;text-align:left;cursor:pointer}
+.stage:before{content:"";position:absolute;top:-22px;left:0;width:13px;height:13px;border-radius:50%;background:var(--accent);box-shadow:0 0 15px color-mix(in srgb,var(--accent) 72%,transparent)}
+.stage small{font-size:10px;color:var(--accent);text-decoration:underline;text-underline-offset:3px}.stage b{display:block;margin:7px 0 10px;font:500 14px 'Instrument Sans';letter-spacing:.1em;color:var(--accent)}.stage span{display:block;color:#b9afc4;font-size:13px;line-height:1.75}.stage:hover span{color:#fff}
+.engine-detail{border-top:1px solid var(--line-soft);padding-top:20px;display:flex;gap:16px;flex-wrap:wrap}.chip{font-size:12px;color:#ddd5e5;border-bottom:1px solid var(--line);padding:4px 0;margin-right:20px}
+
+.triptych{display:grid;grid-template-columns:1fr 1fr 1fr}
+.panel{min-height:440px;padding:34px 34px 26px;border-right:1px solid var(--line);display:flex;flex-direction:column}.panel:first-child{border-left:1px solid var(--line)}
+.panel .section-label{color:var(--accent)}.panel h3{font-size:32px;line-height:1.05;font-weight:400;max-width:360px}.panel .small-rule{width:40px;height:1px;background:var(--accent);margin:18px 0}.panel p{color:var(--soft);max-width:370px;margin:0}.panel .push{margin-top:auto}
+.list-lines{margin-top:12px}.list-line{display:grid;grid-template-columns:30px 1fr 18px;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid var(--line-soft);font-size:13px}.list-line em{font-style:normal;color:var(--accent)}.list-line i{font-style:normal;color:var(--muted)}
+.metrics-list{margin-top:18px}.metric-line{display:grid;grid-template-columns:105px 1fr;gap:18px;padding:8px 0;border-bottom:1px solid var(--line-soft);align-items:center}.metric-line strong{font:400 35px/1 'Instrument Sans';color:var(--accent);letter-spacing:-.04em}.metric-line span{font-size:13px;color:#d8d1df}
+
+.secondary{display:grid;grid-template-columns:repeat(3,1fr)}
+.secondary .panel{min-height:210px}.secondary h3{font-size:27px}.secondary .text-link{margin-top:auto;width:max-content}
+
+.about{display:grid;grid-template-columns:1.2fr .8fr;gap:90px;align-items:start}.about-copy{font-size:20px;color:#d5cedd;max-width:780px}.currently{border-left:1px solid var(--line);padding-left:30px}.currently-row{padding:13px 0;border-bottom:1px solid var(--line-soft)}.currently-row b{display:block;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal)}.currently-row span{display:block;color:var(--soft);margin-top:5px}
+
+.footer{padding:42px 0}.footer-grid{display:grid;grid-template-columns:1.1fr .8fr 1fr;gap:40px;align-items:end}.footer h2{font-size:42px;font-weight:400}.footer h2 i{color:var(--pink);font-style:normal}.footer p{color:var(--soft);margin:0}.social{display:flex;justify-content:flex-end;gap:38px}.social a{font-size:11px;letter-spacing:.16em;text-transform:uppercase;padding-bottom:8px;border-bottom:1px solid var(--pink)}
+
+@media(max-width:1050px){.wrap{width:min(var(--max),calc(100% - 40px))}.hero{grid-template-columns:1fr;padding-top:70px}.signal-wrap{min-height:430px;padding-left:0}.engine-line{grid-template-columns:repeat(4,1fr);row-gap:28px}.engine-line:before{display:none}.stage{border-top:1px solid var(--line);padding-top:20px}.stage:before{top:-7px}.triptych,.secondary{grid-template-columns:1fr}.panel,.panel:first-child{border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-height:auto}.about,.footer-grid,.section-intro{grid-template-columns:1fr}.currently{border-left:0;padding-left:0}.social{justify-content:flex-start}.navlinks a:not(.connect){display:none}}
+@media(max-width:680px){h1{font-size:18vw}.hero{min-height:auto;padding-top:55px}.signal-wrap{min-height:360px}.signal-field{width:100%}.signal-row{grid-template-columns:105px 1fr 30px;height:56px}.engine-line{grid-template-columns:1fr 1fr}.stage{min-height:160px}.connect{padding:10px 13px}.brand{font-size:26px}.wrap{width:min(var(--max),calc(100% - 28px))}}
+
+/* OPTION A: MINIMAL / FASHION-TECH */
+:root{--bg:#160a24;--bg2:#160a24;--bg3:#100717;--pink:#ff4fc8;--violet:#b18cff;--blue:#6bbcff;--cyan:#66e7ff;--teal:#62f1cf;--lime:#d6ff63;--gold:#ffe46a}
+body{background:#160a24}
+.nav{background:rgba(22,10,36,.86);border-bottom:1px solid rgba(255,255,255,.07)}
+.connect{box-shadow:none}
+.hero{min-height:820px;grid-template-columns:1.2fr .8fr;gap:110px;padding-top:120px}
+h1{font-size:clamp(82px,8vw,138px);font-weight:300;line-height:.85;letter-spacing:-.065em}
+.kicker{font-size:14px;letter-spacing:.24em;max-width:590px}
+.hero-body{font-size:15px;max-width:600px}.hero-body .thesis{font-size:17px;line-height:1.6}
+.hero-rule{height:1px;width:124px;margin:34px 0}
+.signal-wrap{justify-content:flex-end;padding-left:0;min-height:560px}
+.signal-field{width:100%;max-width:455px;padding:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.signal-index{font-size:180px;right:0;top:-140px;color:rgba(255,255,255,.025)}
+.signal-top{margin:0;padding:20px 0 34px;border-bottom:1px solid var(--line-soft)}
+.signal-row{grid-template-columns:115px 1fr 28px;height:72px;border-bottom:1px solid var(--line-soft)}
+.signal-line{box-shadow:none}.signal-line:after{box-shadow:none;width:5px;height:5px;top:-2px}
+.signal-note{border-top:0;margin:0;padding:26px 0 18px;font-size:11px}
+.status{bottom:-6px}
+.section{padding:64px 0 72px}
+.section-intro{margin-bottom:50px}.section h2{font-weight:300;font-size:clamp(42px,4.3vw,70px)}
+.engine-line{margin-top:52px}.stage{min-height:210px}.stage b{font-family:'DM Sans';font-weight:500}
+.triptych,.secondary{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.panel{border-top:0;border-bottom:0;min-height:470px;padding:42px 40px 32px}.panel h3{font-weight:300;font-size:34px}.panel .small-rule{width:54px}
+.secondary .panel{min-height:240px}
+.about{padding:20px 0}.about-copy{font-size:22px;line-height:1.62}
+.footer{padding:56px 0}.footer h2{font-weight:300;font-size:48px}
+
+.deep-dive{scroll-margin-top:86px}
+.line-stack{border-top:1px solid var(--line);margin-top:46px}
+.work-line{display:grid;grid-template-columns:72px 1.05fr 1.7fr 150px;gap:28px;align-items:center;padding:28px 0;border-bottom:1px solid var(--line-soft)}
+.work-line>span{color:var(--muted);font-size:12px;letter-spacing:.18em}.work-line h3{margin:0;font-size:24px;font-weight:400}.work-line p{margin:0;color:var(--soft);max-width:680px}.work-line b{justify-self:end;color:var(--pink);font-size:10px;letter-spacing:.18em;font-weight:500}
+.impact-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:44px}.impact-grid>div{padding:32px 28px 38px 0;border-right:1px solid var(--line-soft);min-height:210px}.impact-grid>div+div{padding-left:28px}.impact-grid>div:last-child{border-right:0}.impact-grid strong{font-size:11px;letter-spacing:.16em;color:var(--teal)}.impact-grid h3{font-size:28px;font-weight:300;margin:26px 0 10px}.impact-grid p{margin:0;color:var(--soft)}
+.impact-list .metric-line strong{font-size:18px;letter-spacing:.08em;min-width:110px}
+#builds,#impact,#lab,#about{scroll-margin-top:90px}
+@media(max-width:860px){.work-line{grid-template-columns:48px 1fr}.work-line p,.work-line b{grid-column:2}.work-line b{justify-self:start}.impact-grid{grid-template-columns:1fr 1fr}.impact-grid>div:nth-child(2){border-right:0}.impact-grid>div:nth-child(3){padding-left:0}}
+
+
+.featured-build{border-bottom:1px solid var(--line-soft)}
+.featured-build summary{list-style:none;cursor:pointer}.featured-build summary::-webkit-details-marker{display:none}
+.featured-build .work-line{border-bottom:0;position:relative;padding-right:34px}.featured-build .work-line:after{content:"+";position:absolute;right:0;font-size:24px;font-weight:300;color:var(--muted);transition:.2s}.featured-build[open] .work-line:after{content:"−";color:var(--pink)}
+.build-detail{display:grid;grid-template-columns:72px repeat(3,1fr);gap:28px;padding:4px 0 34px}.build-detail .flow{grid-column:2/-1;border-top:1px solid var(--line);padding-top:20px;color:var(--pink);font-size:11px;letter-spacing:.12em;line-height:2;text-transform:uppercase}.build-detail h4{margin:0 0 8px;font:500 10px/1.3 'Instrument Sans';letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}.build-detail p{margin:0;color:var(--soft);font-size:13px;line-height:1.65}.build-detail .detail-block:first-of-type{grid-column:2}
+@media(max-width:860px){.build-detail{grid-template-columns:48px 1fr}.build-detail .detail-block,.build-detail .detail-block:first-of-type,.build-detail .flow{grid-column:2}.featured-build .work-line{padding-right:28px}}
+
+/* PROOF + POSITIONING SHOWPIECE */
+.positioning-proof{margin-top:58px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:.72fr 1.28fr}
+.positioning-proof .statement{padding:44px 46px 44px 0;border-right:1px solid var(--line)}
+.positioning-proof .statement h3{font-size:clamp(34px,3.5vw,58px);font-weight:300;line-height:1.02;margin:0 0 20px}
+.positioning-proof .statement p{color:var(--soft);max-width:520px;margin:0}
+.positioning-proof .proof-lines{padding:18px 0 18px 46px}
+.proof-row{display:grid;grid-template-columns:36px 170px 1fr;gap:20px;padding:20px 0;border-bottom:1px solid var(--line-soft);align-items:start}.proof-row:last-child{border-bottom:0}
+.proof-row em{font-style:normal;color:var(--pink);font-size:10px;letter-spacing:.14em}.proof-row b{font-weight:500;font-size:12px;letter-spacing:.12em;text-transform:uppercase}.proof-row span{color:var(--soft);font-size:13px}
+.artifact{grid-column:2/-1;margin-top:24px;border-top:1px solid var(--line);padding-top:18px;display:grid;grid-template-columns:110px 1fr;gap:22px}.artifact-label{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.artifact-screen{border-left:2px solid var(--artifact-accent,var(--pink));padding:4px 0 4px 18px;min-height:82px}.artifact-screen strong{display:block;font:500 11px/1.4 'Instrument Sans';letter-spacing:.13em;text-transform:uppercase;color:var(--artifact-accent,var(--pink));margin-bottom:8px}.artifact-screen p{margin:0;color:#d8d1df;font-size:12px;line-height:1.7}.artifact-screen code{font:500 10px/1.8 'Instrument Sans';color:#fff;letter-spacing:.08em;text-transform:uppercase;white-space:normal}
+@media(max-width:860px){.positioning-proof{grid-template-columns:1fr}.positioning-proof .statement{border-right:0;border-bottom:1px solid var(--line);padding-right:0}.positioning-proof .proof-lines{padding-left:0}.proof-row{grid-template-columns:30px 130px 1fr}.artifact{grid-column:2}.artifact-screen{padding-left:14px}}
+
+.artifact-gallery{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:44px}.artifact-gallery figure{margin:0;background:rgba(13,6,27,.96);padding:26px}.artifact-gallery img{display:block;width:100%;height:310px;object-fit:cover;object-position:top;border:1px solid var(--line-soft);filter:saturate(.88) brightness(.9);transition:.25s ease}.artifact-gallery figure:hover img{filter:saturate(1) brightness(1)}.artifact-gallery figcaption{display:grid;grid-template-columns:170px 1fr;gap:20px;padding-top:18px}.artifact-gallery figcaption b{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--pink)}.artifact-gallery figcaption span{font-size:12px;line-height:1.6;color:var(--soft)}@media(max-width:860px){.artifact-gallery{grid-template-columns:1fr}.artifact-gallery img{height:auto}.artifact-gallery figcaption{grid-template-columns:1fr;gap:6px}}
+</style>
+<style>
+.secondary{grid-template-columns:repeat(2,1fr)}
+.footer-note{justify-self:end;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--pink);outline-offset:5px}
+::selection{background:var(--pink);color:#130718}
+@media(max-width:1050px){.secondary{grid-template-columns:1fr}.footer-note{justify-self:start}.navlinks{gap:18px}.navlinks a{display:block!important}.navlinks a[href="#thinking"]{display:none!important}}
+@media(max-width:680px){.navlinks a[href="#builds"]{display:none!important}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="wrap nav-inner"><a class="brand" href="#top">S<i>.</i></a><div class="navlinks"><a href="#builds">Built</a><a href="#thinking">Thinking</a><a href="#about">About</a></div></div></nav>
+
+<main id="top">
+<section class="hero wrap">
+  <div class="hero-copy">
+    <h1>Marketing,<br>Rewired.</h1>
+    <div class="hero-rule"></div>
+    <div class="kicker">Strategy first. Storytelling always. AI where it creates leverage.</div>
+    <div class="hero-body">
+      <p>I build marketing strategy, narratives and operating systems that move markets and revenue.</p>
+      <p>I start with why, then follow the questions wherever they lead: where the market is moving, what we are actually trying to change, how we should position, where growth will come from, and what needs to happen next. Then I translate those ideas into stories people understand, systems teams can execute, and tools that create leverage.</p>
+      <p>Sometimes that means creating a category. Sometimes it means reframing a product, redesigning a revenue motion, or building the machinery to make the strategy real. And occasionally breaking something just to figure out how to build it better.</p>
+      <p class="thesis">Don't just add AI to the way marketing already works.<br>Rethink how the work gets done.</p>
+      <a class="text-link" href="#engine">Explore the engine <span>→</span></a>
+    </div>
+  </div>
+  <div class="signal-wrap" aria-hidden="true">
+    <div class="signal-field">
+      <div class="signal-index">01</div>
+      <div class="signal-top"><span>Operating layers</span><b>Rewired</b></div>
+      <div class="signal-row" style="--accent:var(--pink)"><span class="signal-label">Strategy</span><i class="signal-line"></i><span class="signal-code">01</span></div>
+      <div class="signal-row" style="--accent:var(--violet)"><span class="signal-label">Creativity</span><i class="signal-line"></i><span class="signal-code">02</span></div>
+      <div class="signal-row" style="--accent:var(--blue)"><span class="signal-label">Data</span><i class="signal-line"></i><span class="signal-code">03</span></div>
+      <div class="signal-row" style="--accent:var(--teal)"><span class="signal-label">Technology</span><i class="signal-line"></i><span class="signal-code">04</span></div>
+      <div class="signal-row" style="--accent:var(--lime)"><span class="signal-label">People</span><i class="signal-line"></i><span class="signal-code">05</span></div>
+      <div class="signal-note"><span>Different disciplines. One connected system.</span><strong>Built to compound.</strong></div>
+    </div>
+    <div class="status">System status<b>Optimizing</b></div>
+  </div>
+</section>
+
+<section class="section" id="engine">
+  <div class="wrap">
+    <div class="section-label">The revenue engine</div>
+    <div class="section-intro"><h2>Strategy translated into<br>the entire revenue cycle.</h2><p>AI is the leverage layer, not the strategy. The system starts with market judgment, positioning and story, then carries that thinking through execution, sales and measurement.</p></div>
+    <div class="engine-line" id="engineLine"></div>
+    <div class="engine-detail" id="engineDetail"></div>
+  </div>
+</section>
+
+<section class="section" id="overview">
+  <div class="wrap triptych">
+    <div class="panel" style="--accent:var(--pink)">
+      <div class="section-label">Things I've built</div>
+      <h3>Strategy. Story. Systems.</h3><div class="small-rule"></div>
+      <p>Executive strategy translated into market positions, narratives, GTM systems and AI-powered execution.</p>
+      <a class="text-link push" href="#builds">View builds <span>→</span></a>
+    </div>
+    <div class="panel" id="thinking" style="--accent:var(--violet)">
+      <div class="section-label">Operating principles</div>
+      <h3>The operating system behind the operating system.</h3><div class="small-rule"></div>
+      <div class="list-lines">
+        <div class="list-line"><em>01</em><span>Be curious.</span><i>→</i></div>
+        <div class="list-line"><em>02</em><span>Drive your own ship.</span><i>→</i></div>
+        <div class="list-line"><em>03</em><span>Make hard things simple.</span><i>→</i></div>
+        <div class="list-line"><em>04</em><span>Fast beats precious.</span><i>→</i></div>
+        <div class="list-line"><em>05</em><span>Burn it down.</span><i>→</i></div>
+        <div class="list-line"><em>06</em><span>Be kind.</span><i>→</i></div>
+      </div>
+    </div>
+    <div class="panel" style="--accent:var(--teal)">
+      <div class="section-label">Outcomes</div>
+      <h3>Cool experiments.<br>Real impact.</h3><div class="small-rule"></div>
+      <div class="metrics-list impact-list">
+        <div class="metric-line"><strong>FASTER</strong><span>From market signal to execution</span></div>
+        <div class="metric-line"><strong>SMARTER</strong><span>Better context for decisions and sales</span></div>
+        <div class="metric-line"><strong>LEANER</strong><span>Less repetitive work and operational drag</span></div>
+        <div class="metric-line"><strong>BIGGER</strong><span>More output and coverage without more machinery</span></div>
+      </div>
+      <a class="text-link push" href="#impact">See impact areas <span>→</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="writing">
+  <div class="wrap secondary">
+    <div class="panel" style="--accent:var(--blue)"><div class="section-label">The lab</div><h3>Experiments in progress.<br>Always building.</h3><a class="text-link" href="#lab">See what I'm exploring <span>→</span></a></div>
+    <div class="panel" style="--accent:var(--teal)"><div class="section-label">Hi, I'm Sarah.</div><h3>CMO. Strategist. Storyteller. Builder. I turn ideas into market narratives, operating choices and systems that teams can actually use.</h3><a class="text-link" href="#about">More about me <span>→</span></a></div>
+  </div>
+</section>
+
+
+<section class="section deep-dive" id="builds">
+  <div class="wrap">
+    <div class="section-label">Selected builds</div>
+    <div class="section-intro"><h2>I set the strategy.<br>Then make it executable.</h2><p>My foundation is product marketing: understand the market, make the strategic choice, define the position, create belief, then translate that thinking for buyers, sellers, executives and teams. The systems come after the judgment.</p></div>
+    <div class="positioning-proof">
+      <div class="statement">
+        <div class="section-label">Positioning is everything</div>
+        <h3>Before you automate the work, decide what you’re actually trying to change.</h3>
+        <p>I’ve spent my career finding the story inside complicated markets: spotting the shift, naming the problem, creating categories, sharpening the position, and turning technical capability into something buyers can understand, remember and act on.</p>
+      </div>
+      <div class="proof-lines">
+        <div class="proof-row"><em>01</em><b>Frame the market</b><span>Find the change that makes the old way insufficient and gives the story urgency.</span></div>
+        <div class="proof-row"><em>02</em><b>Own the criteria</b><span>Define the category and position around the capabilities and outcomes you are built to win.</span></div>
+        <div class="proof-row"><em>03</em><b>Create belief</b><span>Turn product complexity into a narrative buyers, sellers, analysts and the market can repeat.</span></div>
+        <div class="proof-row"><em>04</em><b>Operationalize it</b><span>Carry the story through launches, campaigns, sales plays, content and every meaningful buyer interaction.</span></div>
+      </div>
+    </div>
+    <div class="line-stack">
+      <details class="featured-build"><summary><article class="work-line"><span>01</span><h3>Category + Narrative Architecture</h3><p>Find the market shift. Name the problem. Define the category, position and story that change how buyers understand the space, then carry that narrative through product, campaigns and sales.</p><b>POSITIONING</b></article></summary><div class="build-detail"><div></div><div class="detail-block"><h4>The problem</h4><p>Great products lose when the market cannot quickly understand why they matter, what makes them different, or why the old way is no longer enough.</p></div><div class="detail-block"><h4>What I build</h4><p>Category strategy, positioning, messaging architecture and narratives that turn technical capability into buyer value, then give the entire GTM organization one sharp story to tell.</p></div><div class="detail-block"><h4>What changes</h4><p>The company competes on the criteria it wants to own. Buyers see the problem differently. Product, campaigns and sales reinforce the same market point of view.</p></div><div class="flow">Market shift → problem → category → position → narrative → buyer belief</div><div class="artifact" style="--artifact-accent:var(--pink)"><div class="artifact-label">Proof / pattern</div><div class="artifact-screen"><strong>Narrative architecture</strong><code>MARKET SHIFT → NEW PROBLEM → WHY NOW → CATEGORY → DIFFERENTIATED POSITION → BUYER VALUE</code><p>One story becomes the spine for product, campaigns, sales and market influence.</p></div></div></div></details>
+      <details class="featured-build"><summary><article class="work-line"><span>02</span><h3>Agentic Sales Playbook</h3><p>A living GTM brain connecting ICP, positioning, differentiation, buying triggers, MEDDPICC, discovery, value drivers and objection handling.</p><b>STRATEGY</b></article></summary><div class="build-detail"><div></div><div class="detail-block"><h4>The problem</h4><p>Sales knowledge is usually scattered across decks, enablement docs, tribal knowledge and methodology. It gets hard to use at the exact moment a seller needs it.</p></div><div class="detail-block"><h4>What I build</h4><p>A connected playbook that brings together process, ICP, positioning, differentiation, buying triggers, discovery, value drivers, objection handling and MEDDPICC into one usable system.</p></div><div class="detail-block"><h4>What changes</h4><p>Strategy becomes operational. Sellers can move from trigger to discovery to value to qualification with the same narrative and decision logic behind every step.</p></div><div class="flow">ICP + positioning → buying trigger → discovery → value → qualification → next move</div><div class="artifact" style="--artifact-accent:var(--orange)"><div class="artifact-label">Operating principle</div><div class="artifact-screen"><strong>Find the clock already running</strong><p>The playbook is designed around the reason a buyer has to act, not a generic list of product capabilities.</p></div></div></div></details>
+      <details class="featured-build"><summary><article class="work-line"><span>03</span><h3>Competitive Intelligence Engine</h3><p>Daily and weekly agents tracking product moves, customer signals, sentiment, pricing, partnerships, hiring and positioning, then separating meaningful change from noise.</p><b>MARKET</b></article></summary><div class="build-detail"><div></div><div class="detail-block"><h4>The problem</h4><p>Competitive intelligence is everywhere and nowhere. Product announcements, social traction, pricing, hiring, customer proof and user sentiment move faster than static battlecards.</p></div><div class="detail-block"><h4>What I build</h4><p>Always-on agents that scan public signals daily and weekly, prioritize what is commercially meaningful, and turn fragmented updates into concise decision-useful intelligence.</p></div><div class="detail-block"><h4>What changes</h4><p>Teams see meaningful shifts earlier, understand why they matter, and can adapt positioning, campaigns and sales plays without drowning in monitoring work.</p></div><div class="flow">Public signals → detect change → rank significance → interpret → GTM action</div><div class="artifact" style="--artifact-accent:var(--violet)"><div class="artifact-label">Sample output</div><div class="artifact-screen"><strong>Signal detected · High relevance</strong><p>Competitor messaging shifted from feature-led security to AI governance. Hiring and partner activity reinforce the move. Recommended action: pressure-test category language and update the next sales brief.</p></div></div></div></details>
+      <details class="featured-build"><summary><article class="work-line"><span>04</span><h3>Signal Vignette</h3><p>A weekly GTM signal analyst that finds high-value CRM and campaign activity, connects the strongest patterns and turns them into sales-ready account stories.</p><b>SIGNALS</b></article></summary><div class="build-detail"><div></div><div class="detail-block"><h4>The problem</h4><p>Account activity is easy to collect and hard to interpret. Sellers see clicks, visits and campaign touches, but not necessarily the pattern or the reason it matters.</p></div><div class="detail-block"><h4>What I build</h4><p>A weekly analyst that reviews CRM and campaign activity, finds the accounts with the strongest meaningful patterns, and turns those signals into concise account vignettes.</p></div><div class="detail-block"><h4>What changes</h4><p>Sales gets a short list of accounts worth attention, with context they can actually use, instead of another dashboard to inspect.</p></div><div class="flow">CRM + campaign activity → pattern detection → account significance → vignette → seller action</div><div class="artifact" style="--artifact-accent:var(--blue)"><div class="artifact-label">Output</div><div class="artifact-screen"><strong>Signal, not activity</strong><p>The unit of value is not another engagement metric. It is a concise explanation of what is happening at the account and why a seller should care.</p></div></div></div></details>
+      <details class="featured-build"><summary><article class="work-line"><span>05</span><h3>Oscar the Outreach</h3><p>Connects buyer context, CRM behavior, account signals and GTM strategy to answer why this person, why now and why us, then writes the outreach.</p><b>SELL</b></article></summary><div class="build-detail"><div></div><div class="detail-block"><h4>The problem</h4><p>Most personalized outbound is either generic role-based copy or a research dump. Neither gives a seller a compelling reason to contact a specific buyer now.</p></div><div class="detail-block"><h4>What I build</h4><p>An agent that combines verified professional context, CRM engagement, account signals and GTM positioning, identifies the strongest buying trigger and maps it to one relevant value driver and differentiator.</p></div><div class="detail-block"><h4>What changes</h4><p>Research becomes reasoning. Sellers get concise outreach grounded in actual context, with a defensible answer to why this person, why now and why us.</p></div><div class="flow">Person + account → CRM + public signals → trigger → buyer altitude → value → outreach</div><div class="artifact" style="--artifact-accent:var(--cyan)"><div class="artifact-label">Sample reasoning</div><div class="artifact-screen"><strong>Why now</strong><code>REPEATED ENGAGEMENT + AI INITIATIVE → SHIP TRIGGER → EXECUTIVE ALTITUDE → AI SECURITY & GOVERNANCE</code><p>The output is the email. The value is the reasoning that makes the email worth sending.</p></div></div></div></details>
+      <details class="featured-build"><summary><article class="work-line"><span>06</span><h3>Field Marketing Command Center</h3><p>One global operating system for events and field activity, connecting planning, gated workflows, budgets, lead process, execution and reporting.</p><b>DEMAND</b></article></summary><div class="build-detail"><div></div><div class="detail-block"><h4>The problem</h4><p>Global field marketing creates a lot of motion: events, budgets, deadlines, leads, owners and follow-up. When those pieces live in separate systems, execution gets harder to see and harder to govern.</p></div><div class="detail-block"><h4>What I build</h4><p>A single command center for large conferences through 1:1 field activity, with gated checklists, budgets, lead processes, status, ownership and reporting connected in one operating view.</p></div><div class="detail-block"><h4>What changes</h4><p>Teams know what is happening, what is at risk, what is late, what it costs and what needs attention without chasing updates across spreadsheets and Slack.</p></div><div class="flow">Plan → gate → budget → execute → capture → follow up → report</div><div class="artifact" style="--artifact-accent:var(--violet)"><div class="artifact-label">Design choice</div><div class="artifact-screen"><strong>Make the process visible</strong><p>The system turns field activity into an operating portfolio, with risk and accountability surfaced before the event happens.</p></div></div></div></details>
+      <details class="featured-build"><summary><article class="work-line"><span>07</span><h3>Pipeline Intelligence</h3><p>Executive pipeline review across attainment, channel, trend, risk, stage and region, designed to answer not just what happened, but what to do next.</p><b>MEASURE</b></article></summary><div class="build-detail"><div></div><div class="detail-block"><h4>The problem</h4><p>Pipeline reporting can become a rear-view mirror: lots of numbers, little clarity on where performance is changing or what deserves attention next.</p></div><div class="detail-block"><h4>What I build</h4><p>An executive review that connects attainment, channel trends, stage movement, regional performance and risk into one decision-oriented operating view.</p></div><div class="detail-block"><h4>What changes</h4><p>The conversation moves from reporting activity to identifying risk, finding leverage and deciding where to act.</p></div><div class="flow">Pipeline data → trends → risk → channel + stage diagnosis → action</div><div class="artifact" style="--artifact-accent:var(--lime)"><div class="artifact-label">Executive view</div><div class="artifact-screen"><strong>Attention required</strong><p>Attainment is pacing behind plan. The issue is concentrated in one channel and two stages, not broad-based. Focus: increase creation in-channel and inspect stage conversion before adding spend.</p></div></div></div></details>
+      <details class="featured-build"><summary><article class="work-line"><span>08</span><h3>Campaign + Launch Engine</h3><p>Turns technical inputs into positioning-led launches, audience-specific campaigns, channel sequences and polished storytelling at scale.</p><b>CREATE</b></article></summary><div class="build-detail"><div></div><div class="detail-block"><h4>The problem</h4><p>Launches often start with technical source material and then fragment into disconnected briefs, assets and channel requests. The story gets diluted as execution expands.</p></div><div class="detail-block"><h4>What I build</h4><p>A system that starts with product truth and positioning, then translates it by audience, vertical and desired outcome into coordinated launch narratives, campaign sequences and channel-ready work.</p></div><div class="detail-block"><h4>What changes</h4><p>More of the launch inherits the strategy. Teams move faster without sacrificing narrative consistency, and customization happens from a shared point of view instead of from scratch.</p></div><div class="flow">Technical truth → positioning → audience + outcome → narrative → campaign → channel execution</div><div class="artifact" style="--artifact-accent:var(--pink)"><div class="artifact-label">Translation layer</div><div class="artifact-screen"><strong>One strategy, many expressions</strong><p>The goal is not content generation. It is preserving the strategic idea as it moves from product to market.</p></div></div></div></details>
+      <details class="featured-build"><summary><article class="work-line"><span>09</span><h3>Intelligent Lead Routing</h3><p>ICP scoring, enrichment, routing, Slack alerts, SLAs, follow-up and prompts connected into one responsive lead flow.</p><b>OPERATE</b></article></summary><div class="build-detail"><div></div><div class="detail-block"><h4>The problem</h4><p>A lead can be valuable and still disappear into process. Scoring, enrichment, ownership, alerts and follow-up often happen in different places and at different speeds.</p></div><div class="detail-block"><h4>What I build</h4><p>A responsive workflow that scores fit, enriches context, routes ownership, triggers Slack alerts, enforces SLAs and gives the next person useful prompts for follow-up.</p></div><div class="detail-block"><h4>What changes</h4><p>High-value demand moves faster, handoffs become explicit, and context travels with the lead instead of getting lost between systems.</p></div><div class="flow">Signal → ICP score → enrich → route → alert → SLA → follow-up</div><div class="artifact" style="--artifact-accent:var(--lime)"><div class="artifact-label">Operating principle</div><div class="artifact-screen"><strong>Context should travel with the work</strong><p>Automation is most useful when it improves the handoff, not merely the routing rule.</p></div></div></div></details>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section deep-dive" id="impact">
+  <div class="wrap">
+    <div class="section-label">What it changes</div>
+    <div class="section-intro"><h2>Better work. More leverage.</h2><p>The goal is simple: shorten the distance between insight and action, raise the quality of the work, and connect marketing more tightly to revenue.</p></div>
+    <div class="impact-grid">
+      <div><strong>01</strong><h3>Speed</h3><p>Shorter distance between signal, decision and execution.</p></div>
+      <div><strong>02</strong><h3>Leverage</h3><p>More work gets done without creating more process or adding more hands to every task.</p></div>
+      <div><strong>03</strong><h3>Quality</h3><p>Better research, context and consistency at the moment the work gets made.</p></div>
+      <div><strong>04</strong><h3>Revenue</h3><p>Marketing intelligence flows directly into pipeline, opportunities and sales conversations.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section deep-dive" id="lab">
+  <div class="wrap">
+    <div class="section-label">The lab</div>
+    <div class="section-intro"><h2>Building. Breaking.<br>Learning.</h2><p>Things in progress are allowed to look like things in progress.</p></div>
+    <div class="line-stack">
+      <article class="work-line"><span>001</span><h3>Synthetic buying committees</h3><p>Can buyer simulations expose weak positioning before the market does?</p><b>TESTING</b></article>
+      <article class="work-line"><span>002</span><h3>Zero-interface RevOps</h3><p>How much analysis and orchestration can happen without another dashboard?</p><b>BREAKING</b></article>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section" id="about">
+  <div class="wrap about">
+    <div>
+      <div class="section-label">About</div>
+      <h2>Strategy, translated.</h2>
+      <p class="about-copy">I've spent my career at the intersection of company strategy, product marketing, storytelling and growth. I'm endlessly curious and usually start by asking why: why the market works this way, why buyers think this way, why we are doing it this way, what we are missing, and what happens if we try something different. My job at the executive level is to turn those questions into choices: understand where the market is moving, find the sharpest position, create the category or narrative when the old one isn't enough, and translate complex ideas into something buyers, sellers, boards and teams can act on. Positioning changes what buyers notice, how sales sells and what a market believes is possible. I’ve also always coded, tinkered and built things. That means I can move from board-level narrative to working prototype, and use technology to make the strategy real rather than stop at the recommendation.</p>
+    </div>
+    <div class="currently">
+      <div class="section-label">Currently</div>
+      <div class="currently-row"><b>Building</b><span>AI into the revenue engine</span></div>
+      <div class="currently-row"><b>Thinking</b><span>What the next marketing operating model looks like</span></div>
+      <div class="currently-row"><b>Questioning</b><span>Everything</span></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer" id="contact"><div class="wrap footer-grid"><h2>Still building<i>.</i></h2><p>Have an interesting problem?<br>I like those.</p><div class="footer-note"><a href="https://www.linkedin.com/in/hospelhorn/" target="_blank" rel="noopener">LinkedIn</a> · <a href="mailto:shospelhorn@gmail.com">Email</a></div></div></footer>
+
+<script>
+const stages = [
+  {name:'MARKET',accent:'#ff3bbd',items:['Market intelligence','Buyer signals','Competitive tracking','Category analysis']},
+  {name:'STRATEGY',accent:'#9a68ff',items:['ICP & personas','Positioning','Messaging','Campaign strategy']},
+  {name:'CREATE',accent:'#786fff',items:['Content systems','Creative iteration','SEO / AEO','Web development']},
+  {name:'DEMAND',accent:'#49a9ff',items:['ABM orchestration','Personalization','Lead prioritization','Campaign automation']},
+  {name:'SELL',accent:'#35f0ca',items:['Account intelligence','Opportunity intel','Sales enablement','Meeting prep']},
+  {name:'MEASURE',accent:'#c7ff4a',items:['Attribution','Pipeline analytics','Conversion insights','Forecasting']},
+  {name:'LEARN',accent:'#ffd53d',items:["What's working","What's shifting","What to do next","Feedback loops"]}
+];
+const line=document.getElementById('engineLine'),detail=document.getElementById('engineDetail');
+stages.forEach((s,i)=>{
+  const b=document.createElement('button'); b.className='stage'; b.style.setProperty('--accent',s.accent);
+  b.innerHTML=`<small>0${i+1}</small><b>${s.name}</b>${s.items.map(x=>`<span>${x}</span>`).join('')}`;
+  b.addEventListener('click',()=>{detail.innerHTML=s.items.map(x=>`<span class="chip">${x}</span>`).join('')});
+  line.appendChild(b);
+});
+detail.innerHTML=stages[0].items.map(x=>`<span class="chip">${x}</span>`).join('');
+</script>
+</body>
+</html>
