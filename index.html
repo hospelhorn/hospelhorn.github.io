@@ -202,6 +202,64 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 @media(max-width:1050px){.secondary{grid-template-columns:1fr}.footer-note{justify-self:start}.navlinks{gap:18px}.navlinks a{display:block!important}.navlinks a[href="#thinking"]{display:none!important}}
 @media(max-width:680px){.navlinks a[href="#builds"]{display:none!important}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{
+    animation-duration:.01ms!important;
+    animation-iteration-count:1!important;
+    transition-duration:.01ms!important
+  }
+}
+
+
+/* CAREER / A LITTLE CONTEXT */
+
+.career-stack{
+  border-top:1px solid var(--line);
+  margin-top:34px;
+}
+
+.career-row{
+  display:grid;
+  grid-template-columns:180px 240px 1fr;
+  gap:36px;
+  padding:30px 0;
+  border-bottom:1px solid var(--line-soft);
+  align-items:start;
+}
+
+.career-company{
+  font:500 12px/1.3 'Instrument Sans';
+  letter-spacing:.18em;
+  color:var(--pink);
+}
+
+.career-role{
+  font:400 19px/1.35 'DM Sans';
+  color:#fff;
+}
+
+.career-copy{
+  color:var(--soft);
+  max-width:720px;
+  font-size:14px;
+  line-height:1.7;
+}
+
+.career-close{
+  margin-top:28px;
+  max-width:760px;
+  font-size:15px;
+  color:#fff;
+}
+
+@media(max-width:860px){
+  .career-row{
+    grid-template-columns:1fr;
+    gap:8px;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -334,7 +392,43 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
   </div>
 </section>
 
+<section class="section" id="context">
+  <div class="wrap">
+    <div class="section-label">A little context</div>
 
+    <div class="career-stack">
+
+      <div class="career-row">
+        <div class="career-company">BIGID</div>
+        <div class="career-role">Chief Marketing Officer</div>
+        <div class="career-copy">
+          Scaled BigID from ~$5M to $100M+ ARR while building the brand, category and go-to-market engine behind its emergence as a leader in data security, privacy and AI.
+        </div>
+      </div>
+
+      <div class="career-row">
+        <div class="career-company">VARONIS</div>
+        <div class="career-role">Head of Product Marketing</div>
+        <div class="career-copy">
+          Shaped the product marketing strategy that supported Varonis' growth into a leading cybersecurity company, identifying new market opportunities and leading product marketing, content and creative.
+        </div>
+      </div>
+
+      <div class="career-row">
+        <div class="career-company">MAKERBOT</div>
+        <div class="career-role">Head of Product Marketing</div>
+        <div class="career-copy">
+          Built the product marketing team, strategy and channels that took MakerBot from startup to the leading name in desktop 3D printing, through its acquisition by Stratasys.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="career-close">
+      Different markets. Same playbook: see the shift, find the position, build for what comes next.
+    </div>
+  </div>
+</section>
 
 <section class="section deep-dive" id="lab">
   <div class="wrap">
